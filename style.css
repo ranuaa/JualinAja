@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --bs-blue: #28527a;
+  --bs-lightblue: #8ac4d0;
+  --bs-yellow: #f4d160;
+  --bs-white: #ffffff;
+  --bs-font-sans-serif: system-ui, -apple-system, "Montserrat", sans-serif;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--bs-font-sans-serif);
+}
+
+/* Header */
+
+#header {
+  background-color: var(--bs-blue) !important;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.cari {
+  border-color: var(--bs-yellow);
+  color: var(--bs-blue);
+  width: 130px;
+  font-size: 24;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.cari:hover {
+  background-color: var(--bs-blue);
+  border-color: var(--bs-yellow);
+  color: var(--bs-yellow);
+}
+
+.login {
+  background-color: var(--bs-yellow);
+  border-color: var(--bs-blue);
+  width: 130px;
+  color: var(--bs-blue);
+  font-size: 24;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.login:hover {
+  background-color: var(--bs-blue);
+  border-color: var(--bs-yellow);
+  color: var(--bs-yellow);
+}
+
+/* Content */
+
+.content {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.content-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--bs-blue);
+  text-decoration: underline;
+}
+
+.card-animate:hover {
+  cursor: pointer;
+  border-color: var(--bs-blue);
+  border-width: 2;
+}
+
+.card_body {
+  background-color: var(--bs-lightblue);
+  height: 50px;
+}
+
+.card_title {
+  font-weight: 800;
+  color: var(--bs-white);
+  text-align: center;
+}
+
+.card-img {
+  height: 350px;
+}
+
+.card-subtitle1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--bs-blue);
+}
+
+.card-subtitle2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--bs-blue);
+}
+
+.text-info {
+  font-size: 14px;
+  color: var(--bs-blue) !important;
+  font-weight: 300;
+}
+
+.load-title {
+  text-align: center;
+  color: var(--bs-blue);
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--bs-blue);
+}
+
+.footer-link {
+  text-align: center;
+  color: var(--bs-white);
+}
+
+.link a {
+  color: var(--bs-white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link a:hover {
+  color: var(--bs-yellow);
+}
+/* ------------------details-rumah-1----------------------- */
+
+.bungkus {
+  width: 100%;
+  background-color: #f4d160;
+}
+
+.h2-nduwur {
+  color: #28527a;
+}
+
+.data-1 {
+  color: rgba(0, 0, 0, 0.52);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.data-2 {
+  color: #28527a;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.kardus-shadow {
+  box-shadow: 1px 10px 19px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 10px 19px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 10px 19px -8px rgba(0, 0, 0, 0.75);
+}
+
+/* ------------------details-rumah-1----------------------- */
+
+/* ------------------------------search ----------*/
+.intro {
+  height: 20vh;
+}
+
+h6 {
+  text-align: center;
+  font-size: 20px;
+  color: #28527a;
+  font-weight: bold;
+}
+
+/* ------------------------Login------------------------------------------------------------------------- */
+.login-form{
+  background-color:whitesmoke;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.container-btn {
+  background-color: var(--bs-white) !important;
+  border-radius: 5px;
+}
+
+.container-btn:hover {
+  background-color: var(--bs-yellow) !important;
+}
+
+.btn-link{
+  color: var(--bs-blue);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-link:hover{
+  color: var(--bs-blue);
+}
+
+.cardbody-color {
+  background-color: var(--bs-blue);
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.xx1 {
+  border-bottom: 1px solid rgba(107, 104, 104, 0.699);
+  padding-bottom: 15px;
+}
+
+.vyi {
+  background-color: #d9eef8;
+}
+
+.atas-bg-1 {
+  background-image: url(./assets/Vector_2646.jpg);
+  height: 80vh;
+  background-size: cover;
+  color: white;
+}
+
+.atas-bg-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./assets/olx-map.png);
+  background-size: cover;
+  color: black;
+}
+
+.btnss {
+  border: 2px solid black;
+  text-decoration: none;
+  color: #0e1c36;
+  padding: 16px 18px;
+  margin: 10px;
+}
+
+.btnss:hover {
+  background-color: #0e1c36;
+  color: white;
+}
+
+.imbage {
+  width: 120px;
+  height: 60px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.imbage:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.pttrn1 {
+  background-image: url(./assets/pattern-1.jpg);
+  background-size: cover;
+}
+
+.pttrn2 {
+  background-image: url(./assets/pattern-2.jpg);
+  background-size: cover;
+}
+
+.pttrn3 {
+  background-image: url(./assets/pattern-3.jpg);
+  background-size: cover;
+}
+.pttrn4 {
+  background-image: url(./assets/pattern-4.jpg);
+  background-size: cover;
+}
+
+.pttrn5 {
+  background-image: url(./assets/pattern-5.jpg);
+  background-size: cover;
+}
+
+.pttrn1-1 {
+  background-image: url(./assets/ptrn-1.jpg);
+  background-size: cover;
+}
+
+.pttrn2-1 {
+  background-image: url(./assets/ptrn-2.jpg);
+  background-size: cover;
+}
+
+.pttrn3-1 {
+  background-image: url(./assets/ptrn-3.jpg);
+  background-size: cover;
+}
+.pttrn4-1 {
+  background-image: url(./assets/ptrn-4.jpg);
+  background-size: cover;
+}
+
+.pttrn5-1 {
+  background-image: url(./assets/ptrn-5.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 1204px) {
+  .gmbrr {
+    width: 274.66px;
+    height: 154.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gmbrr {
+    width: 189.3px;
+    height: 106.48px;
+  }
+}
